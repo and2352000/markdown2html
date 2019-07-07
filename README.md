@@ -7,7 +7,7 @@ npm i markdowntranshtml
 ```
 
 ```js
-const markdownTohtml = require('markdownTohtml')
+const markdownTohtml = require('markdowntranshtml')
 ```
 ## Parameters
 markdownTohtml(input_dir, output_dir,[encoding])
