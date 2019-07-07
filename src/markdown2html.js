@@ -5,9 +5,8 @@ const path = require('path')
 //trans file number counter
 var count = 0;
 
-function main(input_path, output_path) {
-    transpileDir(input_path, output_path)
-    console.log("\x1b[32m", "Transpile file:", count)
+function main(input_path, output_path, encoding = 'utf8') {
+    transpileDir(input_path, output_path, encoding)
     return count;
 }
 
@@ -46,7 +45,7 @@ function transpilePage(
 
     const htmlPage = md.render(page);
 
-    fs.writeFileSync(path.join(transPath ,path.parse(filename).name) + ".html", htmlPage, encoding)
+    fs.writeFileSync(path.join(transPath, path.parse(filename).name) + ".html", htmlPage, encoding)
 }
 
 
