@@ -1,5 +1,5 @@
 {
-  "name": "markdownTohtml",
+  "name": "markdowntranshtml",
   "version": "0.1.0",
   "description": "Scan directory and transpile markdown to html file",
   "main": "index.js",
@@ -11,5 +11,10 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "remarkable": "^1.7.1"
-  }
+  },
+  "keywords": [
+    "html",
+    "markdown"
+  ],
+  "homepage": "https://github.com/and2352000/markdown2html"
 }
