@@ -1,1 +1,1 @@
-module.exports = require('src/markdown2html');
+module.exports = require('./src/markdownTohtml');

@@ -1,5 +1,5 @@
 {
-  "name": "markdown2html",
+  "name": "markdownTohtml",
   "version": "0.1.0",
   "description": "Scan directory and transpile markdown to html file",
   "main": "index.js",

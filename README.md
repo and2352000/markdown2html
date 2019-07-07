@@ -3,7 +3,7 @@ This module can scan your directory and transpile markdown file to html file.
 
 
 ```js
-const markdown2html = require('markdown2html')
+const markdownTohtml = require('markdownTohtml')
 ```
 ## Parameters
 markdown2html(input_dir, output_dir,[encoding])
@@ -12,7 +12,7 @@ markdown2html(input_dir, output_dir,[encoding])
 - encoding(option): default:'utf8'
 
 ```js
-const files_count = markdown2html('pages', 'build/pages')
+const files_count = markdownTohtml('pages', 'build/pages')
 console.log("Transpile files number:",files_count)
 ```
 
