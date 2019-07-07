@@ -1,6 +1,10 @@
 # markdownTohtml
 This module can scan your directory and transpile markdown file to html file.
 
+Install package
+```shell
+npm i markdowntranshtml
+```
 
 ```js
 const markdownTohtml = require('markdownTohtml')
